@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><b>Chapter 5: Unseen Forces</b></title>
+    <style>
+        body{
+            font-family: 'Roboto','sans-serif';
+            background-image: url('background.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            color:white;
+            padding: 0;
+            margin: 0;
+        }
+        header{
+            background-color:  rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            text-align: center;
+        }
+        header h1{
+            margin:0;
+            font-size: 2.5em;
+            color: white;
+        }
+        .content{
+            /* background: rgba(0, 0, 0, 0.7); */
+            border-radius: 10px;
+            padding:30px;
+            max-width: 800px;
+            margin:40px auto;
+            color:white;
+            text-align:left;
+            /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);  */
+        }
+        img{
+            width:100%;
+            max-width: 600px;
+            height:20px 0;
+            display:block;
+            border-radius:8px;
+        }
+        p{
+            margin:0 0 20px 0;
+            line-height:1.6;
+        }
+        button{
+            padding:12px 24px;
+            margin:20px 0;
+            background-color: black;
+            color:white;
+            border:none;
+            border-radius: 8px;
+            font-size: 1.2rem;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.3s,box-shadow 0.3s;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        }
+        button:hover {
+            background-color: gray;
+            transform:scale(1.05);
+        }
+        button:active {
+            background-color: black;
+            transform:scale(1);
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Chapter 5: Unseen Forces</h1>
+    </header>
+    <div class="content">
+        <img src="Chapter5_image.jpg" alt="Chapter 5 image">
+        <p>
+            As the world’s leading scientists gathered in secret, there was only one plan that stood a chance. The
+            second object was fast approaching, and Apophis was no longer their primary concern. The new
+            object — identified as an alien spacecraft — was unlike anything they’d prepared for.
+        </p>
+        <p>
+            "All space agencies are coordinating, but we need more time," Commander Harris said as he and Ava
+            relayed the data to the agencies. The ISS crew had one job: to disable the spacecraft before it
+            reached Earth.
+        </p>
+        <p>
+            "We have one shot at this," Ava said, her voice cracking under the pressure. "Our missile systems
+            weren’t designed for this. If we miscalculate..."
+        </p>
+        <p>
+            Harris interrupted, "We won’t miss."
+        </p>
+        <p>
+            The crew hurried to arm the only missile available on board. As it launched, they watched in silence,
+            knowing it had to strike true. But time was running out. As the missile approached the object, Harris
+            and Ava held their breath.
+        </p>
+        <p>
+            The screen flickered. “Direct hit!” someone shouted. But their celebration was short-lived. The object
+            slowed but didn’t stop. Its course was altered, and it veered into Apophis. What followed was a
+            massive explosion that could be seen from space.
+        </p>
+        <p>
+            But the collision wasn’t enough. Pieces of Apophis and the alien craft rained down toward Earth.
+            The disaster was far from over.
+        </p>
+        <!-- Next Chapter Button -->
+        <div class="next-chapter">
+            <button onclick="goToNextChapter()">Next Chapter</button>
+        </div>
+         <!--previous Chapter Button-->
+         <div class="previous-chapter">
+            <button onclick="gotoPreviousChapter()">Previous Chapter</button>
+        </div>
+        </div>
+        <script>
+            function goToNextChapter() {
+                window.location.href = 'chapter6.html'; // Link to Chapter 6
+            }
+        </script>
+        <script>
+            function gotoPreviousChapter(){
+                window.location.href = 'chapter4.html';//link to chapter 5
+            }
+        </script> 
+</body>
+</html>

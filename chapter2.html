@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 2: The Countdown Begins</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-image: url('background.jpg'); /* Background image */
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            color: #fff;
+        }
+        .content {
+            /* background: rgba(0, 0, 0, 0.7);  */
+            border-radius: 10px;
+            padding: 30px;
+            max-width: 800px;
+            margin: 40px auto;
+            color: #fff;
+            text-align: left; /* Align text to the left for readability */
+            /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);  */
+        }
+        img {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            margin: 20px 0;
+            display: block;
+            border-radius: 8px;
+        }
+        p {
+            margin: 0 0 20px 0; /* Add margin to space out paragraphs */
+            line-height: 1.6; /* Increase line height for better readability */
+        }
+        button {
+            padding: 12px 24px;
+            margin: 20px 0;
+            background-color: #333;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 1.2rem;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Shadow for depth */
+        }
+        button:hover {
+            background-color: #555;
+            transform: scale(1.05);
+        }
+        button:active {
+            background-color: #222;
+            transform: scale(1);
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Chapter 2: The Countdown Begins</h1>
+    </header>
+
+    <div class="content">
+        <img src="chapter2_image.jpg" alt="Chapter 2 Image">
+
+        <p>
+            The control room was in chaos. Red lights flashed everywhere, casting eerie shadows on the metallic
+            walls of the station. Sirens blared as data screens flickered with lines of incomprehensible numbers.
+            Commander Harris had never seen such panic from mission control before. Despite being hundreds
+            of miles above Earth, he could feel the tension crackling in the air, growing heavier by the second.
+        </p>
+        <p>
+            "What are they trying to hide from us?" he whispered, almost to himself. His voice barely broke
+            through the cacophony of alarms. His heart raced, matching the frantic pace of the flashing lights.
+            Sweat beaded on his forehead despite the cold, sterile environment of the ISS.
+        </p>
+        <p>
+            "It’s not just an asteroid," Ava said, her voice trembling as she leaned closer to her monitor, the faint
+            glow of the screens reflecting in her wide, worried eyes. "There’s more... something happened."
+        </p>
+        <p>
+            Her fingers moved over the console, bringing up a series of images, her face growing pale with each
+            passing second. "This can’t be right," she muttered, shaking her head in disbelief. "Apophis was
+            supposed to pass by safely. All the data, all the models... they were sure."
+        </p>
+        <p>
+            Harris floated to her side, trying to make sense of the garbled transmissions and data feeds. His gut
+            told him something was very, very wrong. He glanced at the Earth through the viewport, its vast blue
+            and white expanse deceptively calm, as though mocking the chaos inside the ISS.
+        </p>
+        <p>
+            Then, the monitors blinked, showing an unsettling image. Apophis—a massive, shadowy rock
+            hurtling through space—but behind it, looming in the background, was something else. A second
+            object. Larger. Faster. And utterly alien. It moved with an unnatural precision, too smooth for any
+            known celestial body.
+        </p>
+        <p>
+            One that no one had predicted.
+        </p>
+        <p>
+            A chilling silence fell over the control room as Ava zoomed in on the object. The details became
+            sharper, revealing an irregular surface—metallic in places, reflecting faint light from the distant Sun.
+            It wasn’t just a rock. "This isn’t a natural object," she whispered, her voice barely audible. "It’s...
+            manufactured."
+        </p>
+        <p>
+            Harris felt a knot tighten in his chest. The implications were staggering. "You’re saying it’s... a
+            spacecraft?"
+        </p>
+        <p>
+            Ava's eyes never left the screen. "Either it’s coming for us... or we’ve been lied to all along."
+        </p>
+        <!-- Next Chapter Button -->
+        <div class="next-chapter">
+            <button onclick="goToNextChapter()">Next Chapter</button>
+        </div>
+        <!--previous Chapter Button-->
+        <div class="previous-chapter">
+            <button onclick="gotoPreviousChapter()">Previous Chapter</button>
+        </div>
+    </div>
+    <script>
+        function goToNextChapter() {
+            window.location.href = 'chapter3.html'; // Link to Chapter 3
+        }
+    </script>
+    <script>
+        function gotoPreviousChapter(){
+            window.location.href = 'chapter1.html';//link to chapter 1
+        }
+    </script>
+</body>
+</html>

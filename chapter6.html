@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><b>Chapter 6: The Final Countdown</b></title>
+    <style>
+        body{
+            font-family: 'Roboto','sans-serif';
+            background-image: url('background.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            color:white;
+            padding: 0;
+            margin: 0;
+        }
+        header{
+            background-color:  rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            text-align: center;
+        }
+        header h1{
+            margin:0;
+            font-size: 2.5em;
+            color: white;
+        }
+        .content{
+            /* background: rgba(0, 0, 0, 0.7); */
+            border-radius: 10px;
+            padding:30px;
+            max-width: 800px;
+            margin:40px auto;
+            color:white;
+            text-align:left;
+            /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);  */
+        }
+        img{
+            width:100%;
+            max-width: 600px;
+            height:20px 0;
+            display:block;
+            border-radius:8px;
+        }
+        p{
+            margin:0 0 20px 0;
+            line-height:1.6;
+        }
+        button{
+            padding:12px 24px;
+            margin:20px 0;
+            background-color: black;
+            color:white;
+            border:none;
+            border-radius: 8px;
+            font-size: 1.2rem;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.3s,box-shadow 0.3s;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        }
+        button:hover {
+            background-color: gray;
+            transform:scale(1.05);
+        }
+        button:active {
+            background-color: black;
+            transform:scale(1);
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Chapter 6: The Final Countdown</h1>
+    </header>
+    <div class="content">
+        <img src="Chapter6_image.jpg" alt="Chapter 6 image">
+        <p>
+            The international space station was eerily quiet, a ghost of its former self. Dust coated every surface, and the control
+            room was barely functional. Ava and Harris wasted no time as they rushed to power up the railgun
+            system, their final hope to save Earth from the deadly debris.
+        </p>
+        <p>
+            As the base systems hummed to life, warning lights blinked. The control panel flashed red. "It’s not
+            enough," Ava muttered, her fingers flying across the keyboard. "The station doesn’t have the power to
+            fire a shot of this magnitude."
+        </p>
+        <p>
+            Commander Harris's heart sank. "We can’t let it fail. We’ve come too far."
+        </p>
+        <p>
+            Ava's eyes darted over the screen. "There’s one way… we could reroute the core’s energy, but it’ll fry
+            the entire system." She paused, looking up at him. "This place will be destroyed, and we won’t
+            survive the process."
+        </p>
+        <p>
+            Harris clenched his fists. "If we don’t do it, billions of people won’t survive."
+        </p>
+        <p>
+            They shared a silent understanding. They had trained for this moment — a time when sacrifice was
+            the only option left.
+        </p>
+        <p>
+            As Ava initiated the sequence to reroute the station's power, alarms blared. "This is it," she said,
+            glancing at Harris. "Once I hit this, there’s no going back."
+        </p>
+        <p>
+            "Do it," Harris replied, his voice steady.
+        </p>
+        <p>
+            The room vibrated violently as the station’s core redirected all its energy into the railgun. The screen lit
+            up, showing the massive debris cloud rapidly approaching Earth. Time was running out.
+        </p>
+        <p>
+            "Charging complete," Ava announced, her hand hovering over the trigger. Sweat beaded on her
+             forehead as the railgun’s energy reached critical levels.
+        </p>
+        <p>
+            "Firing in 3… 2… 1…"
+        </p>
+        <p>
+            A blinding light erupted from the ISS as the railgun fired. The shot tore through space,
+            cutting into the debris field. One by one, the fragments disintegrated, breaking apart in a cascade of
+            fiery explosions. The largest piece shattered just before entering Earth's atmosphere, lighting up the
+            sky like fireworks.
+        </p>
+        <p>
+            Ava and Harris watched from the control room, their bodies weak with exhaustion. "We did it," Harris
+            whispered, barely believing it.
+        </p>
+        <p>
+            But the victory came at a cost. The station was shutting down, the systems overwhelmed by the power
+            surge. Sparks flew, and the floor shook beneath them.
+        </p>
+        <p>
+            "It’s over," Ava said softly, collapsing into her seat as the power died around them. The lights
+            dimmed, and the station’s life support systems failed. There was no way out.
+        </p>
+        <p>
+            They had saved Earth — but not themselves.
+        </p>
+        <p>
+            As the darkness closed in, Ava allowed herself a moment of peace. The world would go on. Their
+            sacrifice had meant something.
+        </p>
+        <p>
+            And for them, that was enough.
+        </p>
+        <button onclick="completeChapter()">End</button>
+        <!--previous Chapter Button-->
+        <div class="previous-chapter">
+            <button onclick="gotoPreviousChapter()">Previous Chapter</button>
+        </div>
+        </div>
+       
+        <script>
+            function completeChapter(){
+                
+                window.location.href='index.html';
+            }
+        </script>
+        <script>
+            function gotoPreviousChapter(){
+                window.location.href = 'chapter5.html';//link to chapter 5
+            }
+        </script> 
+
+
+</body>
+</html>

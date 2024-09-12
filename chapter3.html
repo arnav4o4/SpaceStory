@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 3: A Desperate Plan</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-image: url('background.jpg'); /* Background image */
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            color: #fff;
+        }
+        .content {
+            /* background: rgba(0, 0, 0, 0.7); */
+            border-radius: 10px;
+            padding: 30px;
+            max-width: 800px;
+            margin: 40px auto;
+            color: #fff;
+            text-align: left; /* Align text to the left for readability */
+            /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); */
+        }
+        img {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            margin: 20px 0;
+            display: block;
+            border-radius: 8px;
+        }
+        p {
+            margin: 0 0 20px 0; /* Add margin to space out paragraphs */
+            line-height: 1.6; /* Increase line height for better readability */
+        }
+        button {
+            padding: 12px 24px;
+            margin: 20px 0;
+            background-color: #333;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 1.2rem;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Shadow for depth */
+        }
+        button:hover {
+            background-color: #555;
+            transform: scale(1.05);
+        }
+        button:active {
+            background-color: #222;
+            transform: scale(1);
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Chapter 3: A Desperate Plan</h1>
+    </header>
+
+    <div class="content">
+        <img src="chapter3_image.jpg" alt="Chapter 3 Image">
+
+        <p>
+            The briefing room was filled with tension. The team had been working tirelessly, trying to come up with a 
+            plan to deflect the asteroid. Each proposal seemed more desperate than the last.
+        </p>
+        <p>
+            "We need a solution," Ava said, her voice strained. Her eyes darted across the room as she leaned over the table, pointing to the holographic display. "And we need it fast."
+        </p>
+        <p>
+            Commander Harris paced back and forth, reviewing the data on the screen. "What if we used a nuclear device?" he suggested. "It could alter the asteroid’s trajectory."
+        </p>
+        <p>
+            Ava shook her head. "It’s risky. The calculations show a high probability of fragmentation, which could create multiple threats." She brought up a simulation, showing the potential for the asteroid to break into dozens of smaller, yet still dangerous, fragments that would rain down on Earth.
+        </p>
+        <p>
+            "But we don’t have the luxury of time," Harris replied, his voice tight with frustration. "Every second we wait, it gets closer. We need to make a decision now."
+        </p>
+        <p>
+            The room fell silent for a moment, the weight of the situation pressing down on everyone present. Dr. Ellis, who had been quietly observing from the corner, finally spoke up. "There might be another way."
+        </p>
+        <p>
+            Ava and Harris turned toward him. "Go on," Ava prompted.
+        </p>
+        <p>
+            Ellis hesitated for a moment, then stepped forward. "We’ve been developing a gravitational tractor system. It's still in its early stages, but in theory, it could pull the asteroid off course without the risk of fragmentation."
+        </p>
+        <p>
+            Ava’s eyes widened. "But we’d need time to get the equipment in place, and we’re running low on fuel and resources up here. Can we make it work?"
+        </p>
+        <p>
+            "We can retrofit what we have on the station," Ellis said, determination flashing in his eyes. "It’s a long shot, but it’s our best bet to avoid total disaster."
+        </p>
+        <p>
+            Harris sighed, rubbing the back of his neck. "We’ve got one chance. If this doesn’t work…"
+        </p>
+        <p>
+            Ava nodded grimly. "We know. Let’s get to work."
+        </p>
+        <!-- Next Chapter Button -->
+        <div class="next-chapter">
+            <button onclick="goToNextChapter()">Next Chapter</button>
+        </div>
+        <!--previous Chapter Button-->
+        <div class="previous-chapter">
+            <button onclick="gotoPreviousChapter()">Previous Chapter</button>
+        </div>
+    </div>
+    <script>
+        function goToNextChapter() {
+            window.location.href = 'chapter4.html'; // Link to Chapter 4
+        }
+    </script>
+    <script>
+        function gotoPreviousChapter(){
+            window.location.href = 'chapter2.html';//link to chapter 2
+        }
+    </script>
+
+</body>
+</html>
+
+

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 1: The Silence of Space</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-image: url('background.jpg'); /* Background image */
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            color: #fff;
+        }
+        .content {
+            /* background: rgba(0, 0, 0, 0.7); */
+            border-radius: 10px;
+            padding: 30px;
+            max-width: 800px;
+            margin: 40px auto;
+            color: #fff;
+            text-align: left; /* Align text to the left for readability */
+            /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); */
+        }
+        img {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            margin: 20px 0;
+            display: block;
+            border-radius: 8px;
+        }
+        p {
+            margin: 0 0 20px 0; /* Add margin to space out paragraphs */
+            line-height: 1.6; /* Increase line height for better readability */
+        }
+        button {
+            padding: 12px 24px;
+            margin: 20px 0;
+            background-color: #333;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 1.2rem;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Shadow for depth */
+        }
+        button:hover {
+            background-color: #555;
+            transform: scale(1.05);
+        }
+        button:active {
+            background-color: #222;
+            transform: scale(1);
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Chapter 1: The Silence of Space</h1>
+    </header>
+
+    <div class="content">
+        <img src="chapter1_image.jpg" alt="Chapter 1 Image">
+
+        <p>
+            The silence in the International Space Station was eerie. It had been days since the Earth had gone quiet. Dr. Ava looked out at the vastness of space, her mind racing. What had happened down there? She tapped the controls, attempting to re-establish communication with NASA, but all she received was static.
+        </p>
+        <p>
+            "It doesn’t make sense," she muttered under her breath. "We were supposed to be getting updates every hour."
+        </p>
+        <p>
+            Commander Harris floated nearby, staring blankly at the Earth through the viewport. The blue marble looked peaceful, but the silence from mission control told another story. "Do you think it’s true?" he finally asked, breaking the uneasy quiet. "The asteroid?"
+        </p>
+        <p>
+            Ava sighed, turning to face him. "Apophis wasn’t supposed to hit us. All the calculations were clear. Something else is going on." Her voice trembled slightly, betraying the confidence she had always carried. She glanced at the monitors, hoping for any sign of life from Earth, but all was still.
+        </p>
+        <p>
+            "What could it be?" Harris pressed, his voice tinged with unease.
+        </p>
+        <p>
+            Ava didn’t have an answer. All the training, all the simulations, none of them had prepared her for this—complete isolation from Earth. "I don’t know," she admitted softly. "But we’re not getting the full picture. Something happened down there, and we need to find out what."
+        </p>
+        <p>
+            Harris floated closer, his gaze never leaving the Earth. "Then we need to prepare for the worst."
+        </p>
+        <p>
+            Ava nodded. "We’ll need to run diagnostics, check the supplies, and see if we can boost our signal. We’re on our own for now."
+        </p>
+        <!-- Next Chapter Button -->
+        <div class="next-chapter">
+            <button onclick="goToNextChapter()">Next Chapter</button>
+        </div>
+        <!--previous Chapter Button-->
+        <div class="previous-chapter">
+            <button onclick="gotoPreviousChapter()">Back to Index</button>
+        </div>
+
+    </div>
+    <script>
+        function goToNextChapter() {
+            window.location.href = 'chapter2.html'; // Link to Chapter 2
+        }
+    </script>
+    <script>
+        function gotoPreviousChapter(){
+            window.location.href = 'index.html';//link to index
+        }
+    </script>
+</body>
+</html>
+
+

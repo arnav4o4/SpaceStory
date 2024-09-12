@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><b>Chapter 4: The Race Against Time</b></title>
+    <style>
+        body{
+            font-family: 'Roboto','sans-serif';
+            background-image: url('background.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            color:white;
+            padding: 0;
+            margin: 0;
+        }
+        header{
+            background-color:  rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            text-align: center;
+        }
+        header h1{
+            margin:0;
+            font-size: 2.5em;
+            color: white;
+        }
+        .content{
+            /* background: rgba(0, 0, 0, 0.7); */
+            border-radius: 10px;
+            padding:30px;
+            max-width: 800px;
+            margin:40px auto;
+            color:white;
+            text-align:left;
+            /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);  */
+        }
+        img{
+            width:100%;
+            max-width: 600px;
+            height:20px 0;
+            display:block;
+            border-radius:8px;
+        }
+        p{
+            margin:0 0 20px 0;
+            line-height:1.6;
+        }
+        button{
+            padding:12px 24px;
+            margin:20px 0;
+            background-color: black;
+            color:white;
+            border:none;
+            border-radius: 8px;
+            font-size: 1.2rem;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.3s,box-shadow 0.3s;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        }
+        button:hover {
+            background-color: gray;
+            transform:scale(1.05);
+        }
+        button:active {
+            background-color: black;
+            transform:scale(1);
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Chapter 4: The Race Against Time</h1>
+    </header>
+    <div class="content">
+        <img src="Chapter4_image.jpg" alt="Chapter 4 image">
+
+        <p>
+            The room remained tense as the team worked tirelessly to retrofit the station’s equipment for the
+            gravitational tractor. Time was not on their side. Apophis loomed closer with every passing hour, its
+            course unchanged. The crew had no time to rest — it was now or never.
+        </p>
+        <p>
+            Suddenly, a new alert flashed on the station's main control screen. The crew’s attention shifted, and
+            Ava’s eyes widened as she read the incoming data. "What... what is this?" she whispered.
+        </p>
+        <p>
+            Commander Harris, standing over her shoulder, stared at the data in disbelief. "It’s not Apophis," he
+            muttered. "This is something else."
+        </p>
+        <p>
+            The screens showed a second object, much larger and faster than Apophis, hurtling toward Earth. Its
+            course was unmistakably a collision trajectory, and it was gaining speed. Unlike Apophis, this object
+            didn’t resemble any asteroid they had ever encountered.
+        </p>
+        <p>
+            Ava ran several scans, her fingers trembling as she processed the results. "This can’t be right... its
+            surface... it’s metallic. And the shape... it’s too irregular. This isn’t a natural object." She looked up, her
+            voice barely above a whisper. "It’s manufactured."
+        </p>
+        <p>
+            Harris’ face paled as the weight of the realization sank in. "Are you saying… it’s a spacecraft?"
+        </p>
+        <p>
+            "I don’t know," Ava replied. "But it’s not from Earth, that’s for sure."
+        </p>
+        <p>
+            The gravity of the situation deepened. Apophis, once thought to be the primary threat, was now
+            overshadowed by this new object. Its rapid approach left little time for preparation, and whatever it
+            was, it wasn’t friendly.
+        </p>
+        <p>
+            Dr. Ellis hurried to the console, scanning the incoming signals. "This thing is moving too fast. We
+            need to alert mission control on Earth. If we don’t act fast, this could be a global extinction-level
+            event."
+        </p>
+        <p>
+            Ava’s heart raced as she opened a comm link, desperately trying to re-establish contact with the
+            Earth-based space agencies. But all she received was static. "Damn it," she cursed under her breath.
+            "We’re still cut off."
+        </p>
+        <p>
+            "Keep trying," Harris ordered. "We need to warn them. If Apophis wasn’t enough to destroy Earth,
+            this thing will finish the job."
+        </p>
+        <p>
+            As the crew scrambled to interpret the new data, the station’s limited resources strained under the
+            pressure of the dual threats. Apophis was still approaching Earth, and now this unknown object was
+            closing in rapidly.
+        </p>
+        <p>
+            "We need a plan, now!" Harris barked. "We can’t fight both threats at once."
+        </p>
+        <p>
+            Ava’s mind raced, but her thoughts kept returning to the unknown object. It was too advanced, too
+            precise to be an accident. "We might be dealing with more than just a random asteroid strike," she
+            said. "This could be deliberate."
+        </p>
+        <p>
+            Harris shot her a concerned look. "You mean... we could be under attack?"
+        </p>
+        <p>
+            Ava nodded slowly. "And if that’s the case, then Apophis might have been just a distraction."
+        </p>
+        <p>
+            As they struggled to comprehend the magnitude of what they were facing, the clock continued ticking.
+            Earth’s fate now hung in the balance, and the ISS crew knew they were running out of time.
+        </p>
+
+         <!-- Next Chapter Button -->
+         <div class="next-chapter">
+            <button onclick="goToNextChapter()">Next Chapter</button>
+        </div>
+         <!--previous Chapter Button-->
+         <div class="previous-chapter">
+            <button onclick="gotoPreviousChapter()">Previous Chapter</button>
+        </div>
+
+    </div>
+    <script>
+        function goToNextChapter() {
+            window.location.href = 'chapter5.html'; // Link to Chapter 5
+        }
+    </script>
+    <script>
+        function gotoPreviousChapter(){
+            window.location.href = 'chapter3.html';//link to chapter 3
+        }
+    </script>  
+</body>
+</html>

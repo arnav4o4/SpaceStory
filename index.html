@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Aphosis Crisis</title>
+    <style>
+        /* Keyframe for fade-in animation */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(1000px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        /* Apply animation to the content */
+        .animated-text {
+            opacity: 0; /* Initially invisible */
+            animation: fadeIn 4s ease-out forwards; /* 2-second fade-in animation */
+        }
+        body {
+            font-family: 'Roboto', 'sans-serif';
+            background-image: url('background.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            color: #fff;
+        }
+        .content {
+            padding: 30px;
+            max-width: 800px;
+            margin: 40px auto;
+            color: #fff;
+            text-align: left;
+        }
+        /* Floating Button */
+        .floating-button {
+            position: fixed;
+            right: 20px;
+            bottom: 20px;
+            background-color: #333;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            font-size: 2rem;
+            padding: 15px;
+            cursor: pointer;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        }
+        /* Chapter List */
+        .chapter-list {
+            display: none; /* Hidden by default */
+            background-color: rgba(0, 0, 0, 0.8);
+            color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            width: 300px;
+            margin: 20px auto;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+        }
+        .chapter-list.active {
+            display: block; /* Show when active */
+        }
+        .chapter-list h2 {
+            margin-top: 0;
+        }
+        .chapter-list a {
+            display: block;
+            padding: 10px;
+            background-color: #444;
+            color: #fff;
+            text-decoration: none;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+        .chapter-list a:hover {
+            background-color: #555;
+        }
+        /* Story Summary */
+        .summary {
+            /* background-color: rgba(0, 0, 0, 0.7); */
+            padding: 20px;
+            border-radius: 10px;
+            /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); */
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1 class="animated-text">The Aphosis Crisis</h1>
+    </header>
+
+    <div class="content">
+        <!-- Story Summary Section -->
+        <div class="summary">
+            <h2 class="animated-text">Story Summary</h2>
+            <p class="animated-text">
+                In the not-too-distant future, the International Space Station crew faces a race against time. Apophis, an asteroid on a collision course with Earth,
+                isn't the only threat they must contend with. Something far more dangerous lurks in the shadows of space. Will the crew be able to save humanity in time?
+            </p>
+        </div>
+
+        <!-- Chapter List Section -->
+        <div class="chapter-list" id="chapterList">
+            <h2>Chapters</h2>
+            <a href="chapter1.html" >Chapter 1: The Silence of Space</a>
+            <a href="chapter2.html" >Chapter 2: The Hidden Threat</a>
+            <a href="chapter3.html" >Chapter 3: A Desperate Plan</a>
+            <a href="chapter4.html" >Chapter 4: The Race Against Time</a>
+            <a href="chapter5.html" >Chapter 5: Unseen Forces</a>
+            <a href="chapter6.html" >Chapter 6: The Final Countdown</a>
+        </div>
+    </div>
+
+    <!-- Floating Button for Chapter Links -->
+    <button class="floating-button" onclick="toggleChapters()">☰</button>
+
+    <script>
+        // Function to toggle the visibility of the chapter list below the summary
+        function toggleChapters() {
+            const chapterList = document.getElementById('chapterList');
+            chapterList.classList.toggle('active');
+        }
+
+        // Automatically show chapters after a 10-second delay
+        setTimeout(() => {
+            const chapterList = document.getElementById('chapterList');
+            chapterList.classList.add('active'); // Show chapter list after 10 seconds
+        }, 5000); // 10000 milliseconds = 10 seconds
+    </script>
+
+</body>
+</html>
+
+
